@@ -15,7 +15,7 @@ In this lesson, we'll unpack what **Webpack** brings to the table when developin
 Welcome back! We are picking up where we left off in the [previous lesson][previous-lesson]. If you didn't take a break, shame on you. In this lesson, we will explore Webpack and its place in the React development process.
 
 ## The Problem
-
+ 
 To best describe Webpack, we will begin by describing the problem that it was created to solve.
 
 Picture having a server that sends some JavaScript using webpage to browsers. Let's imagine we have some `animateDiv.js` script we want browsers to receive that itself makes use of `jquery`. The first file we send to a requesting client, `index.html`, may look like this:
